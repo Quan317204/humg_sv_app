@@ -3,8 +3,8 @@ class AppConstants {
   // static const String baseUrl =
   //     'http://10.0.2.2:8080/api/v1'; // Android emulator
   // static const String baseUrl = 'http://localhost:8080/api/v1'; // iOS simulator
-  static const String baseUrl = 'http://192.168.1.26:8080/api/v1'; // iOS simulator
-
+  // static const String baseUrl = 'http://192.168.1.26:8080/api/v1'; // iOS simulator
+  static const String baseUrl = 'http://10.0.2.2:8080/api/v1';
   // OpenWeather API
   static const String weatherApiKey =
       'b4e2fd52e42c4f4f6cec3264bcbc255c'; // Thay bằng API key của bạn

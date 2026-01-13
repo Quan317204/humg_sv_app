@@ -4,8 +4,8 @@ import '../providers/auth_provider.dart';
 import '../widgets/weather_widget.dart';
 import '../widgets/custom_text_field.dart';
 import '../widgets/custom_button.dart';
-//import 'register_screen.dart';
-//import 'forgot_password_screen.dart';
+import 'register_screen.dart';
+import 'forgot_password_screen.dart';
 import 'home_screen.dart';
 import 'admin_dashboard_screen.dart';
 
@@ -192,13 +192,13 @@ class _LoginScreenState extends State<LoginScreen> {
                         // Forgot Password
                         TextButton(
                           onPressed: () {
-/*
+
                             Navigator.of(context).push(
                               MaterialPageRoute(
                                 builder: (_) => const ForgotPasswordScreen(),
                               ),
                             );
-*/
+
                           },
                           child: const Text(
                             'Quên Mật Khẩu',
@@ -225,13 +225,13 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         TextButton(
                           onPressed: () {
-/*
+
                             Navigator.of(context).push(
                               MaterialPageRoute(
                                 builder: (_) => const RegisterScreen(),
                               ),
                             );
-*/
+
                           },
                           style: TextButton.styleFrom(
                             padding: EdgeInsets.zero,

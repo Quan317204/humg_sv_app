@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 import '../widgets/weather_widget.dart';
 import 'login_screen.dart';
+import 'student_info_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -167,7 +168,11 @@ class HomeScreen extends StatelessWidget {
                         title: 'Thông tin\ncá nhân',
                         color: const Color(0xFF2196F3),
                         onTap: () {
-                          // Navigate to profile
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (_) => const StudentInfoScreen(),
+                            ),
+                          );
                         },
                       ),
                       _buildMenuItem(
